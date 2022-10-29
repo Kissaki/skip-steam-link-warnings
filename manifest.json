@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Skip Steam Link Warnings",
+  "description": "Skip warning page when clicking links in Steam.",
+  "version": "1.0.0",
+  "background": {
+    "scripts": [
+      "background_script.js"
+    ]
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://steamcommunity.com/linkfilter/?url=*"
+  ]
+}
